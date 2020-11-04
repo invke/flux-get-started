@@ -7,7 +7,6 @@ metadata:
   annotations:
     fluxcd.io/automated: "false"
     fluxcd.io/tag.chart-image: semver:~4.0
-    bananas: apples
 spec:
   releaseName: mongodb
   interval: 1m
