@@ -22,7 +22,7 @@ spec:
   path: ./boost-cluster
   # exclude charts directory from kustomize
   ignore: |
-    /charts/
+    /charts
   prune: true
   sourceRef:
     kind: GitRepository
