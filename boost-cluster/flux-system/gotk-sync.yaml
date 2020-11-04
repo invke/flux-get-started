@@ -20,6 +20,9 @@ metadata:
 spec:
   interval: 10m0s
   path: ./boost-cluster
+  # exclude charts directory from kustomize
+  ignore: |
+    !/charts/
   prune: true
   sourceRef:
     kind: GitRepository
