@@ -21,9 +21,10 @@ spec:
         kind: HelmRepository
         name: googleapis
         namespace: default
-  valueFileSecrets:
+  valuesFrom:
     # the redis-auth secret contains the password value
-    - name: redis-auth
+    - kind: Secret
+      name: redis-auth
   values:
     usePassword: true
     image:
