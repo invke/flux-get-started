@@ -9,6 +9,7 @@ metadata:
     fluxcd.io/tag.chart-image: semver:~4.0
 spec:
   releaseName: mongodb
+  interval: 1m
   chart:
     spec:
       chart: mongodb

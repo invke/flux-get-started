@@ -12,6 +12,7 @@ metadata:
     fluxcd.io/locked_user: "Stefan Prodan <stefan@weave.works>"
 spec:
   releaseName: redis
+  interval: 1m
   chart:
     spec:
       chart: redis
