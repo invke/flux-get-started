@@ -1,3 +1,5 @@
+First pass fork of setting up flux locally and then migrating to flux 2.
+
 # flux-get-started
 
 [![CircleCI](https://circleci.com/gh/fluxcd/flux-get-started.svg?style=svg)](https://circleci.com/gh/fluxcd/flux-get-started)
